@@ -1,0 +1,117 @@
+/* styles for my resume */
+
+/*body text*/
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #444;
+  font-weight: 400;
+  }
+
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+/*My name at top*/
+#name {
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3em;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+/*my title below contact info*/
+#title{
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 20;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin: 0 auto;
+}
+
+/*all lists*/
+ul{
+  font-size: 1em;
+}
+
+/*section headers*/
+.sectionheader {
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #33485e;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 70%;
+  min-width: 300px;
+}
+
+/*job title*/
+.jobtitle{
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+/*organization*/
+.organization{
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+/*date*/
+.date{
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+  margin-top: 2px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*job description*/
+.description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*menu with contact info*/
+.menu{
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul.menu li {
+  display: inline;
+}
+
+#degrees{
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#do{
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
