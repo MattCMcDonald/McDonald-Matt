@@ -4,6 +4,12 @@ body {
   font-weight: 400;
   }
 
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
 #name {
   color: #33485e;
   text-transform: uppercase;
@@ -34,8 +40,6 @@ strong{
   min-width: 300px;
 }
 
-#container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+.jobtitle{
+  
 }
