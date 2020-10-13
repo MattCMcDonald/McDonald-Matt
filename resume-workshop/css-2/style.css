@@ -1,3 +1,6 @@
+/* styles for my resume */
+
+/*body text*/
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   color: #444;
@@ -8,8 +11,10 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 50px;
   }
 
+/*My name at top*/
 #name {
   color: #33485e;
   text-transform: uppercase;
@@ -20,12 +25,27 @@ body {
   min-width: 300px;
   margin: 0 auto;
 }
-strong{
+
+/*my title below contact info*/
+#title{
   color: #33485e;
   text-transform: uppercase;
+  text-align: center;
   font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 20;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin: 0 auto;
 }
 
+/*all lists*/
+ul{
+  font-size: 1em;
+}
+
+/*section headers*/
 .sectionheader {
   color: #ffffff;
   text-transform: uppercase;
@@ -40,24 +60,30 @@ strong{
   min-width: 300px;
 }
 
+/*job title*/
 .jobtitle{
-  color: #33485e;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 3em;
+  font-weight: 600;
+  font-size: 1.5em;
 }
 
+/*organization*/
 .organization{
+  font-weight: 400;
   font-size: 1.25em;
 }
 
+/*date*/
 .date{
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
   margin-top: 2px;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
 }
 
+/*job description*/
 .description{
   margin-top: 10px;
   margin-bottom: 10px;
@@ -65,19 +91,27 @@ strong{
   margin-right: 0;
 }
 
+/*menu with contact info*/
 .menu{
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  text-align: center;
   margin: 0 auto;
+  padding: 0;
+}
+
+ul.menu li {
   display: inline;
 }
 
 #degrees{
-
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #do{
-
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
