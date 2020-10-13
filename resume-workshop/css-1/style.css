@@ -1,14 +1,20 @@
+/* styles for my resume */
+
+/*body text*/
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   color: #444;
   font-weight: 400;
   }
 
+/*My name at top*/
 h1 {
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
   font-size: 3em;
+
+/*my title below contact info*/
 }
 strong{
   color: #33485e;
@@ -16,9 +22,35 @@ strong{
   font-size: 1.5em;
 }
 
+/*experience header*/
 h2 {
-  color: #ffffff;
   text-transform: uppercase;
   background-color: #33485e;
+  color: #ffffff;
   font-weight: 400;
   font-size: 1.5em;
+}
+
+/*job title*/
+h3 {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+/*organization*/
+h4 {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+/*date*/
+h5 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+}
+
+/*all lists*/
+ul{
+  font-size: 1em;
+}
