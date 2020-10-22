@@ -44,9 +44,17 @@ h3{
   font-weight:normal;
 }
 
+hr {
+  width: 50%;
+  height: 4px;
+  border-width: 0;
+  color: #7ac6dd;
+  background-color: #7ac6dd;
+  }
+
 blockquote{
   font-size: 2.5em;
-  font-weight: 400;
+  font-weight: 40px;
 }
 
 #caption{
