@@ -1,4 +1,70 @@
-#content{
+#content {
   margin: 0 auto;
   width: 900px;
 }
+
+p{
+  font-family: Georgia, serif;
+  color: #000000;
+  font-size: 13px;
+  }
+
+.masthead {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.bodyimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  width: 100%;
+}
+
+h1 {
+  font-family: helvetica, sans-serif;
+  color: #000000;
+  font-size: 1.6em;
+  font-weight: 600;
+  font-style: italic;
+  }
+
+h2{
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+h3{
+  color: #696969;
+  font-size: 1em;
+  font-weight:normal;
+}
+
+blockquote{
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+#caption{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 2em;
+  }
