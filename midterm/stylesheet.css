@@ -10,6 +10,34 @@
   width: 100%;
 }
 
+.bodyimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  width: 100%;
+}
+
+/*rapinoe with trophy*/
+.portaitcrop {
+  background-image: url('https://mattcmcdonald.github.io/McDonald-Matt/midterm/rapinoe4.jpg');
+  width: 250px;
+  height: 375px;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+/*rapinoe with on field*/
+.portaitcrop2 {
+  background-image: url('https://mattcmcdonald.github.io/McDonald-Matt/midterm/rapinoe3.jpg');
+  width: 250px;
+  height: 375px;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: georgia, "Times New Roman", serif;
   font-size: 1.4em;
@@ -25,4 +53,42 @@ h2{
 p{
   font-family: helvetica, arial, sans-serif;
   font-size: 12px;
+  }
+
+ul{
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+}
+
+blockquote{
+  font-size: 2.5em;
+  font-weight: 40px;
+  color: #D52A64;
+}
+
+hr {
+  width: 50%;
+  height: 4px;
+  border-width: 1px;
+  background-color: 000000;
+  }
+
+  #byline {
+    font-family: georgia, "Times New Roman", serif;
+    font-size: .8em;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 2em;
+    }
+
+  #caption{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 1em;
   }
