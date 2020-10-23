@@ -1,0 +1,21 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+h1 {
+  font-family: georgia, "Times New Roman", serif;
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+h2{
+  font-family: georgia, "Times New Roman", serif;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+p{
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+  }
