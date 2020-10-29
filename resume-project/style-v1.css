@@ -38,10 +38,14 @@ h3 {
   margin-left: 0;
   margin-right: 0;
 }
-.menu{
+ul.menu{
+  list-style: none; /* Remove default bullets */
+}
+ul.menu li:before {
   text-align: center;
-  margin: 0 auto;
-  padding: 0;
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #471CF5; /* Change the color */
+  width: 1em; /* Also needed for space (tweak if needed) */
 }
 .style1 {
   	border-top: 1px dashed #8c8b8b;
@@ -52,7 +56,7 @@ h3 {
   }
 
 /*credit to w3schools.com https://www.w3schools.com/howto/howto_css_bullet_color.asp */
-  ul.skills li::before {
+  ul.skills li:before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: #471CF5; /* Change the color */
     font-weight: 900; /* If you want it to be bold */
