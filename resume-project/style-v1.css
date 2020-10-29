@@ -31,3 +31,32 @@ h3 {
 .col-mid-6 {
   border-left: 1px dashed;
 }
+
+#skills{
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.style1 {
+  	border-top: 1px dashed #8c8b8b;
+  }
+
+  ul.skills {
+    list-style: none; /* Remove default bullets */
+  }
+
+/*credit to w3schools.com https://www.w3schools.com/howto/howto_css_bullet_color.asp */
+  ul.skills li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #471CF5; /* Change the color */
+    font-weight: 900; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+.footer-copyright{
+  font-family:'Noto Sans', Arial, sans-serif; 
+}
