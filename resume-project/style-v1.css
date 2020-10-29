@@ -38,7 +38,11 @@ h3 {
   margin-left: 0;
   margin-right: 0;
 }
-
+.menu{
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
 .style1 {
   	border-top: 1px dashed #8c8b8b;
   }
@@ -58,5 +62,5 @@ h3 {
   }
 
 .footer-copyright{
-  font-family:'Noto Sans', Arial, sans-serif; 
+  font-family:'Noto Sans', Arial, sans-serif;
 }
