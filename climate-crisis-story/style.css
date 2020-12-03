@@ -108,7 +108,7 @@ p{
 .overlay{
   position:absolute; /* specifies exact position*/
   width:50%;
-  top:10%; /* 20% down from top of div*/
+  top:20%; /* 20% down from top of div*/
   left:25%;
   background-color: #000;
   opacity: .7;
@@ -190,15 +190,16 @@ p{
     }
 }
 
-  /* Overlay*/
+  /* Overlay
   @media (min-width:1080px){
 
       .overlay {
-        width:25%;
-        top:20%; /* 20% down from top of div*/
-        left:37.5%;
+        width:30%;
+        top:20%;
+        left:35%;
       }
   }
+*/
 
 /* pull quote
 @media (max-width:768px){
