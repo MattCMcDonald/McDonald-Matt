@@ -1,0 +1,114 @@
+.headline{
+  font-family: Roboto Condensed, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.chapter-headline{
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.byline{
+  font-family: Roboto, Arial, sans-serif;
+  font-size: .9em;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.caption{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 50%;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom: 1;
+}
+
+p{
+  font-family: 'Merriweather', Georgia, serif;
+  font-weight: 400;
+  font-size: .9em;
+  line-height: 180%;
+}
+
+.red{
+  color:#f23030;
+}
+
+div.image-centered{
+  margin-left: auto;
+  margin-right: auto;
+  margin: 2em 0;
+  max-width: 100%;
+}
+
+.image1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
+
+/* container for hero image */
+.hero-container{
+  position: relative;
+  text-align: center;
+  color:#fff;
+}
+
+/* hero image class */
+.hero-image{
+  width: 100%;
+}
+
+/* overlay class*/
+.overlay{
+  position:absolute; /* specifies exact position*/
+  top:10%; /* 20% down from top of div*/
+  width:100%;
+  background-color: #000;
+  opacity: .7;
+}
+
+/* header for hero image*/
+.hero-hed{
+
+}
+
+/*sub header for hero image*/
+.hero-sub{
+
+}
+
+.navbar{
+  font-family: Roboto, Arial, sans-serif;
+}
+
+/* Nav at top */
+.nav-top{
+  color:white;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.footer-copyright{
+  background-color: black;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+.footer-text{
+  font-family:'Roboto', Arial, sans-serif;
+  color: white;
+}
+
+.row-text{
+  text-align: center;
+}
