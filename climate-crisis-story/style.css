@@ -158,6 +158,23 @@ p{
   text-align: center;
 }
 
+/*hyperlinks */
+
+/* unvisited link */
+a:link {
+  color: #F23030;
+}
+
+/* visited link */
+a:visited {
+  color: #731717;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF3333;
+}
+
 /* Media queries */
 
   /* headers*/
