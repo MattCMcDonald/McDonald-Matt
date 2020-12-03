@@ -16,32 +16,41 @@
 .sidebar{
   margin-top: 1em;
   margin-bottom: 1em;
-  padding: 2em;
-  border: 2px solid #f23030;
+  padding: 1em;
+  border: .5em solid #5AA632;
 }
 
 .sidebar-headline{
   font-family: 'Roboto Condensed', Arial, sans-serif;
   font-size: 1.3em;
-  font-weight: 600;
-  color:#000;
+  font-weight: 500;
+  color:#fff;
   text-align: center;
-  background-color: #f23030;
+  background-color: #5AA632;
   padding-top: .2em;
-  padding-bottom: .2em;
-  }
+  padding-bottom: .5em;
+  margin-top: -.8em;
+  margin-left: -.8em;
+  margin-right: -.8em;
 }
 
 .sidebar-description{
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: .5em;
+  font-size: 1em;
   font-weight: 400;
   color:#000;
+  letter-spacing: normal;
+  line-height: normal;
   text-align: left;
-  background-color: #f23030;
-  padding-top: .2em;
-  padding-bottom: .2em;
-  }
+
+}
+
+.ul-sidebar{
+  font-size: .9em;
+}
+
+.li-sidebar{
+  margin-top: .5em;
 }
 
 .byline{
