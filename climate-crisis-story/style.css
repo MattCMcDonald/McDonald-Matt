@@ -3,7 +3,7 @@
   font-stretch: condensed;
   font-size: 3em;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
 }
 
 .chapter-headline{
@@ -19,7 +19,7 @@
   font-weight: 400;
   letter-spacing: .1em;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   padding-bottom: 1em;
 }
 
@@ -66,7 +66,7 @@
 p{
   font-family: 'Merriweather', Georgia, serif;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.1em;
   letter-spacing: .05em;
   line-height: 180%;
 }
@@ -107,8 +107,9 @@ p{
 /* overlay class*/
 .overlay{
   position:absolute; /* specifies exact position*/
-  top:20%; /* 20% down from top of div*/
-  width:100%;
+  width:50%;
+  top:10%; /* 20% down from top of div*/
+  left:25%;
   background-color: #000;
   opacity: .7;
 }
@@ -117,7 +118,7 @@ p{
 .hero-hed{
   font-family: 'Merriweather', Georgia, serif;
   font-size: 6em;
-  color:#fff;
+  color:#f23030;
   margin: 0 auto;
   padding-bottom: 10px;
 }
@@ -127,6 +128,7 @@ p{
   font-family:''Roboto Condensed'', Arial, sans-serif;
   font-stretch: condensed;
   font-size:.25em;
+  color: #fff;
 }
 
 .navbar{
@@ -187,6 +189,16 @@ p{
       width:100%;
     }
 }
+
+  /* Overlay*/
+  @media (min-width:1080px){
+
+      .overlay {
+        width:25%;
+        top:20%; /* 20% down from top of div*/
+        left:37.5%;
+      }
+  }
 
 /* pull quote
 @media (max-width:768px){
