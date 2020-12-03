@@ -75,6 +75,16 @@
   padding-left: 1em;
 }
 
+.caption-left{
+  width: 100%;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+  text-align: left;
+  font-size: .8em;
+  font-weight: 300;
+  color: #808080;
+  padding-left: 1em;
+}
+
 /*pull quote */
 .quote{
   font-family: 'Roboto Condensed', Arial, sans-serif;
