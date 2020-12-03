@@ -1,31 +1,67 @@
 .headline{
-  font-family: Roboto Condensed, Arial, sans-serif;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+  font-stretch: condensed;
   font-size: 3em;
   font-weight: 700;
   text-align: center;
 }
 
 .chapter-headline{
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 2em;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+  font-size: 1.5em;
   font-weight: bold;
+  padding-top: 1em;
 }
 
 .byline{
-  font-family: Roboto, Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: .9em;
-  font-weight: 300;
+  font-weight: 400;
+  letter-spacing: .1em;
   text-transform: uppercase;
   text-align: center;
+  padding-bottom: 1em;
 }
 
 .caption{
-  font-family: Roboto, Arial, sans-serif;
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
   font-size: .8em;
   font-weight: 300;
   color: #808080;
-  margin-bottom: 1;
+  padding-bottom: 1em;
+  padding-left: 1em;
 }
+
+/*pull quote */
+.quote{
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+  color:#f23030;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: left;
+  width:75%;
+  display: block;
+  margin: 0 auto;
+  padding: .5em 0 .5em 0;
+  border-top: 1px solid #f23030;
+  border-bottom: 1px solid #f23030;
+  margin-top:.3em;
+  margin-bottom:.3em;
+
+}
+
+.quote-attribution{
+  font-size: .5em;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+  font-weight: 100;
+  text-align: left;
+  margin-left:3em;
+  color: #000;
+}
+
 
 p{
   font-family: 'Merriweather', Georgia, serif;
@@ -39,14 +75,20 @@ p{
   color:#f23030;
 }
 
-/*Area around image including caption */
-div.image-centered{
-  max-width: 100%;
+/* container for image1 */
+.image1-container{
+  width:100%;
+  position: relative;
+  text-align: left;
+  padding-top: 1em;
 }
 
-/*Actual image styling */
+/*Actual image1 styling */
 .image1{
-  max-width: 100%;
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 1em;
 }
 
 /* container for hero image */
@@ -54,6 +96,7 @@ div.image-centered{
   position: relative;
   text-align: center;
   color:#fff;
+  padding-bottom: 2em;
 }
 
 /* hero image class */
@@ -81,13 +124,13 @@ div.image-centered{
 
 /*sub header for hero image*/
 .hero-sub{
-  font-family:'Roboto', Arial, sans-serif;
+  font-family:''Roboto Condensed'', Arial, sans-serif;
   font-stretch: condensed;
   font-size:.25em;
 }
 
 .navbar{
-  font-family: Roboto, Arial, sans-serif;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
 /* Nav at top */
@@ -105,7 +148,7 @@ div.image-centered{
   margin-bottom: .5em;
 }
 .footer-text{
-  font-family:'Roboto', Arial, sans-serif;
+  font-family:''Roboto Condensed'', Arial, sans-serif;
   color: white;
 }
 
@@ -114,6 +157,8 @@ div.image-centered{
 }
 
 /* Media queries */
+
+  /* headers*/
 @media (max-width:1000px){
 
   .hero-hed {
@@ -132,5 +177,30 @@ div.image-centered{
 
     .hero-hed {
       font-size:3em;
+    }
+}
+
+  /* caption*/
+@media (max-width:768px){
+
+    .caption {
+      width:100%;
+    }
+}
+
+/* pull quote
+@media (max-width:768px){
+
+  .quote {
+    width:100%;
+  }
+}
+*/
+
+  /* images */
+@media (max-width:768px){
+
+    .image1 {
+      width:100%;
     }
 }
