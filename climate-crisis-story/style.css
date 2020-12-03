@@ -20,20 +20,18 @@
 }
 
 .caption{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  max-width: 50%;
   font-family: Roboto, Arial, sans-serif;
-  font-size: 1em;
+  font-size: .8em;
   font-weight: 300;
+  color: #808080;
   margin-bottom: 1;
 }
 
 p{
   font-family: 'Merriweather', Georgia, serif;
   font-weight: 400;
-  font-size: .9em;
+  font-size: 1em;
+  letter-spacing: .05em;
   line-height: 180%;
 }
 
@@ -41,18 +39,14 @@ p{
   color:#f23030;
 }
 
+/*Area around image including caption */
 div.image-centered{
-  margin-left: auto;
-  margin-right: auto;
-  margin: 2em 0;
   max-width: 100%;
 }
 
+/*Actual image styling */
 .image1{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 50%;
+  max-width: 100%;
 }
 
 /* container for hero image */
@@ -70,7 +64,7 @@ div.image-centered{
 /* overlay class*/
 .overlay{
   position:absolute; /* specifies exact position*/
-  top:10%; /* 20% down from top of div*/
+  top:20%; /* 20% down from top of div*/
   width:100%;
   background-color: #000;
   opacity: .7;
@@ -78,12 +72,18 @@ div.image-centered{
 
 /* header for hero image*/
 .hero-hed{
-
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 6em;
+  color:#fff;
+  margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 /*sub header for hero image*/
 .hero-sub{
-
+  font-family:'Roboto', Arial, sans-serif;
+  font-stretch: condensed;
+  font-size:.25em;
 }
 
 .navbar{
@@ -109,6 +109,28 @@ div.image-centered{
   color: white;
 }
 
-.row-text{
+.text-centered{
   text-align: center;
+}
+
+/* Media queries */
+@media (max-width:1000px){
+
+  .hero-hed {
+    font-size:5em;
+  }
+}
+
+@media (max-width:768px){
+
+  .hero-hed {
+    font-size:4em;
+  }
+}
+
+@media (max-width:600px){
+
+    .hero-hed {
+      font-size:3em;
+    }
 }
