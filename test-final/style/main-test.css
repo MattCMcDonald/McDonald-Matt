@@ -141,43 +141,29 @@ p{
   padding-top: 1em;
 }
 
-/*centered box overlayed on top
-.overlay-box {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
-    height:80%;
-    width: 80%;
-    border: 5px solid #fff;
-}
-*/
 /* container for hero image */
 .hero-container{
-  position: relative;
   max-width: 100%;
-  width:100%;
-  height: auto;
+  height: 70vh;
   text-align: center;
   color:#fff;
+  margin-bottom: 10vh;
 }
 
 /* hero image class */
 .hero-image{
   max-width: 100%;
-  height:auto;
   display: block;
   margin: 0 auto;
 }
 
 /* overlay class*/
-
 .overlay{
   position:absolute; /* specifies exact position*/
-  width:80%;
-  height:auto;
+  width:75%;
+  height:35%;
   top:10%; /* 20% down from top of div*/
-  left:10%;
+  left:12.5%;
   bottom:30%;
   background-color: #000;
   opacity: .7;
@@ -186,7 +172,7 @@ p{
 /* header for hero image*/
 .hero-hed{
   font-family: 'Merriweather', Georgia, serif;
-  font-size: 9vw;
+  font-size: 9vh;
   color:#f23030;
   padding-bottom: 5%;
 }
@@ -195,7 +181,7 @@ p{
 .hero-sub{
   font-family:''Roboto Condensed'', Arial, sans-serif;
   font-stretch: condensed;
-  font-size:2vw;
+  font-size:.25em;
   color: #fff;
 }
 
@@ -246,7 +232,7 @@ a:hover {
 
 /* Media queries */
 
-  /* headers
+  /* headers*/
 @media (max-width:1000px){
 
   .hero-hed {
@@ -267,7 +253,7 @@ a:hover {
       font-size:3em;
     }
 }
-*/
+
   /* caption*/
 @media (max-width:768px){
 
@@ -276,16 +262,16 @@ a:hover {
     }
 }
 
-
-  /* Overlay */
+  /* Overlay
   @media (min-width:1080px){
 
       .overlay {
-        width:50%;
-        top:10%;
-        left:25%;
+        width:30%;
+        top:20%;
+        left:35%;
       }
   }
+*/
 
 /* pull quote
 @media (max-width:768px){
