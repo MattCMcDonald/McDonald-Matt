@@ -1,3 +1,9 @@
+#svgContainer{
+  width:100%;
+  height:auto;
+  background-color:#fff;
+  }
+
 .headline{
   font-family: 'Roboto Condensed', Arial, sans-serif;
   font-stretch: condensed;
