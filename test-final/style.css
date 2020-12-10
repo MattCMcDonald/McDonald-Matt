@@ -1,9 +1,9 @@
-.svgContainer{
+/*.svgContainer{
   width:100%;
   height:auto;
   background-color:#fff;
   }
-
+*/
 .headline{
   font-family: 'Roboto Condensed', Arial, sans-serif;
   font-stretch: condensed;
@@ -61,10 +61,10 @@
 
 .byline{
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: .9em;
+  font-size: 1.1em;
   font-weight: 400;
+  color: #696969;
   letter-spacing: .1em;
-  text-transform: uppercase;
   text-align: left;
   padding-bottom: 5%;
 }
@@ -76,19 +76,28 @@
   font-family: 'Roboto Condensed', Arial, sans-serif;
   font-size: .8em;
   font-weight: 300;
-  color: #808080;
-  padding-bottom: 1em;
+  color: #080808;
+  margin-bottom: 1em;
   padding-left: 1em;
 }
 
 .caption-left{
-  width: 100%;
+
   font-family: 'Roboto Condensed', Arial, sans-serif;
   text-align: left;
   font-size: .8em;
   font-weight: 300;
   color: #808080;
-  padding-left: 1em;
+  padding-left: 2vw;
+  padding-bottom: 1vw;
+}
+
+p{
+  font-family: 'Merriweather', Georgia, serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  letter-spacing: .05em;
+  line-height: 180%;
 }
 
 /*pull quote */
@@ -118,17 +127,12 @@
   color: #000;
 }
 
-
-p{
-  font-family: 'Merriweather', Georgia, serif;
-  font-weight: 400;
-  font-size: 1.1em;
-  letter-spacing: .05em;
-  line-height: 180%;
-}
-
 .red{
   color:#f23030;
+}
+
+.nav-text{
+  color:#fff;
 }
 
 /* container for image1 */
@@ -164,6 +168,7 @@ p{
   position: relative;
   max-width: 100%;
   width:100%;
+  margin: 0 auto;
   height: auto;
   text-align: center;
   color:#fff;
@@ -183,11 +188,11 @@ p{
   position:absolute; /* specifies exact position*/
   width:80%;
   height:auto;
-  top:10%; /* 20% down from top of div*/
+  top:30%; /* 20% down from top of div*/
   left:10%;
   bottom:30%;
-  background-color: #000;
-  opacity: .7;
+  /*background-color: #000; */
+  opacity: .9;
 }
 
 /* header for hero image*/
@@ -208,9 +213,15 @@ p{
 
 .navbar{
   font-family: 'Roboto Condensed', Arial, sans-serif;
+
 }
 
 /* Nav at top */
+.navbar-fixed-top {
+
+}
+
+
 .nav-top{
   color:white;
   margin: 0 auto;
@@ -288,9 +299,8 @@ a:hover {
   @media (min-width:1080px){
 
       .overlay {
-        width:50%;
-        top:10%;
-        left:25%;
+        width:30%;
+        left:35%;
       }
   }
 
