@@ -133,6 +133,7 @@ p{
 
 .nav-text{
   color:#fff;
+  font-size: .8em;
 }
 
 /* container for image1 */
@@ -186,13 +187,13 @@ p{
 
 .overlay{
   position:absolute; /* specifies exact position*/
-  width:80%;
+  width:60%;
   height:auto;
-  top:30%; /* 20% down from top of div*/
-  left:10%;
-  bottom:30%;
+  top:70%; /* 20% down from top of div*/
+  left:20%;
+  bottom:10%;
   /*background-color: #000; */
-  opacity: .9;
+  opacity: .8;
 }
 
 /* header for hero image*/
@@ -220,7 +221,6 @@ p{
 .navbar-fixed-top {
 
 }
-
 
 .nav-top{
   color:white;
@@ -299,8 +299,9 @@ a:hover {
   @media (min-width:1080px){
 
       .overlay {
-        width:30%;
-        left:35%;
+        width:40%;
+        left:30%;
+        top:60%;
       }
   }
 
