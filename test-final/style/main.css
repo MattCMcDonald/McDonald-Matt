@@ -181,12 +181,10 @@ p{
 
 .overlay{
   position:absolute; /* specifies exact position*/
-  width:80%;
+  width:90%;
   height:auto;
-  top:60%; /* 20% down from top of div*/
-  left:10%;
-  bottom:10%;
-  /*background-color: #000000; */
+  top:55%; /* % down from top of div*/
+  left:5%;
   opacity: .8;
 }
 
