@@ -262,6 +262,13 @@ a:hover {
   }
 }
 
+/* quote*/
+@media (max-width:768px){
+
+  .quote {
+    margin: 3em 0 3em 0; /* top right bottom left */
+  }
+}
 
 /* Overlay */
 @media (min-width:1080px){
@@ -272,15 +279,6 @@ a:hover {
       top:60%;
     }
 }
-
-/* pull quote
-@media (max-width:768px){
-
-.quote {
-  width:100%;
-}
-}
-*/
 
 /* images */
 @media (max-width:768px){
