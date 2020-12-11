@@ -24,13 +24,12 @@
 }
 
 .sidebar{
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding: 1em;
-  border-left: .2em solid #c71e1d;
-  border-right: .2em solid #c71e1d;
-  margin-left: 2em;
-  margin-right:2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+  border-left: 2px solid #c71e1d;
+  border-right: 2px solid #c71e1d;
 }
 
 .sidebar-headline{
@@ -43,6 +42,7 @@
   margin-top: -.8em;
   margin-left: -.8em;
   margin-right: -.8em;
+  color:#0c507a;
 }
 
 .sidebar-description{
@@ -75,15 +75,11 @@
 }
 
 .caption{
-  width: 75%;
-  display: block;
-  margin: 0 auto;
   font-family: 'Roboto Condensed', Arial, sans-serif;
   font-size: .8em;
   font-weight: 300;
   color: #080808;
-  margin-bottom: 1em;
-  padding-left: 1em;
+
 }
 
 .caption-left{
@@ -131,7 +127,7 @@ p{
 }
 
 .red{
-  color:#f23030;
+  color:#c71e1d;
 }
 
 /* container for image1 */
@@ -139,7 +135,8 @@ p{
   max-width:100%;
   width:100%
   text-align: left;
-  padding-top: 1em;
+  margin-top: 2em;
+  margin-bottom:2em;
 }
 
 /*Actual image1 styling */
@@ -148,7 +145,6 @@ p{
   width:100%;
   display: block;
   margin: 0 auto;
-  padding-top: 1em;
 }
 
 /*centered box overlayed on top
@@ -198,7 +194,7 @@ p{
 .hero-hed{
   font-family: 'Merriweather', Georgia, serif;
   font-size: 9vw;
-  color:#f23030;
+  color:#c71e1d;
   padding-bottom: 5%;
 }
 
@@ -230,8 +226,8 @@ p{
 /* Footer */
 .footer-copyright{
   background-color: black;
-  margin-top: .5em;
-  margin-bottom: .2em;
+  margin-top: 5em;
+  padding-bottom: .2em;
   line-height: 0;
 }
 .footer-text{
@@ -247,7 +243,7 @@ p{
 
 /* unvisited link */
 a:link {
-  color: #F23030;
+  color: #c71e1d;
 }
 
 /* visited link */
