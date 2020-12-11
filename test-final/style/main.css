@@ -104,17 +104,15 @@ p{
 /*pull quote */
 .quote{
   font-family: 'Roboto Condensed', Arial, sans-serif;
-  font-size: 2.5em;
   font-weight: 700;
   text-align: left;
   max-width:100%;
   margin: 0 auto;
-  padding: .5em 0 0 0;
   border-top: 2px solid #C71e1d;
   border-bottom: 2px solid #C71e1d;
-  margin-top: 1em;
-  margin-bottom: 1em;
-
+  margin: 3em 1em 3em 1em; /* top right bottom left */
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .quote-attribution{
