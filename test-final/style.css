@@ -23,16 +23,18 @@
   margin-top: 1em;
   margin-bottom: 1em;
   padding: 1em;
-  border: .5em solid #5AA632;
+  border-left: .5em solid #738c68;
+  border-right: .5em solid #738c68;
+  border-radius: 1em;
+  margin-left: 2em;
+  margin-right:2em;
 }
 
 .sidebar-headline{
   font-family: 'Roboto Condensed', Arial, sans-serif;
   font-size: 1.3em;
   font-weight: 500;
-  color:#fff;
   text-align: center;
-  background-color: #5AA632;
   padding-top: .2em;
   padding-bottom: .5em;
   margin-top: -.8em;
