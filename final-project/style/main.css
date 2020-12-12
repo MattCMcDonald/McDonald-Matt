@@ -66,12 +66,12 @@
 
 .byline{
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: 1.4em;
-  font-weight: 300;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #696969;
   letter-spacing: .1em;
   text-align: left;
-  padding-left: 2vw;
-  margin-bottom: 5vh;
+  padding-bottom: 5%;
 }
 
 .caption{
