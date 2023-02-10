@@ -1,0 +1,58 @@
+.topper {
+
+}
+
+.headline {
+font-size: 80px;
+font-weight: bold;
+font-family: Georgia;
+letter-spacing: 2px;
+text-align: center;
+}
+
+.byline {
+font-size: 40px;
+font-family: Georgia;
+font-weight: bold;
+letter-spacing: 2px;
+text-align: left;
+}
+
+.photo {
+
+}
+
+.icon {
+
+}
+
+.caption {
+font-family: Georgia;
+font-size: 28px;
+font-weight: regular;
+letter-spacing: 2px;
+text-align: left;
+}
+
+p {
+font-family: Georgia;
+font-size: 28px;
+font-weight: regular;
+text-align: left;
+}
+
+#container {
+
+}
+
+.dateline {
+font-size: 34px;
+font-family: Georgia;
+font-weight: regular;
+letter-spacing: 2px;
+text-align: left;
+}
+
+h {
+
+}

@@ -1,0 +1,94 @@
+#page {
+margin: 0 auto;
+width: 900px;
+}
+
+.topper {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+.headline {
+font-size: 50px;
+font-weight: bold;
+font-family: Georgia;
+letter-spacing: 2px;
+text-align: left;
+}
+
+.byline {
+font-size: 32px;
+font-family: Georgia;
+font-weight: bold;
+letter-spacing: 2px;
+text-align: left;
+}
+
+.photo {
+display: block;
+margin-right: auto;
+margin-left: auto;
+margin-top: 1em;
+max-width: 100%;
+}
+
+.icon {
+align-content: left;
+height: 34px;
+width: 34px;
+}
+
+.caption {
+font-family: Georgia;
+font-size: 20px;
+letter-spacing: 2px;
+text-align: left;
+padding-top: 4px;
+}
+
+p {
+font-family: Georgia;
+font-size: 20px;
+font-weight: regular;
+text-align: left;
+}
+
+.dateline {
+font-size: 20px;
+font-family: Georgia;
+letter-spacing: 2px;
+text-align: left;
+}
+
+.subhead {
+font-size: 32px;
+font-family: Georgia;
+font-weight: bold;
+letter-spacing: 2px;
+text-align: left;
+}
+
+hr {
+max-width: 50%;
+margin: auto;
+color: #707070;
+height: 10px;
+}
+
+.pullquote {
+text-align: center;
+font-family: 'Zilla Slab Highlight';
+font-size: 70px;
+color: black;
+display: block;
+max-width: 100%;
+}
+
+.quote {
+  font-size: 50px;
+  color: black;
+  display: block;
+  max-width:100%;
+}

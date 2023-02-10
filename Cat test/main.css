@@ -1,0 +1,11 @@
+p{
+  font-family: "Merriweather";
+}
+hr {
+    max-width: 50%;
+    display: block;
+    margin:auto;
+    height:10px !important;
+    color:#000000;
+    margin-top: 3px;
+}
